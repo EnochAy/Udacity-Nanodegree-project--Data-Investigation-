@@ -91,3 +91,61 @@ show up for their scheduled appointment?
 3. Is there any correlation between gender showing up for appointments?
 4. Does receiving scholarship have a significant impact on showing up for appointments?
 5. Does receiving messages have a significant impact on showing up for appointments?
+
+
+
+# Findings
+Q1: What factors are important for us to know in order to predict if a patient will 
+show up for their scheduled appointment?
+
+Answer: It was discovered that the following factors are important for us to know in order to predict if a patient will show up for their scheduled appointment:
+1. Age (Older/Younger)
+2. Scholarship (Yes/No)
+3. handicapped (Yes/No)
+4. Recieved Message (Yes/No)
+
+
+Q2: Is there any correlation between age and those who shows up for appointments?
+
+Answer: It was found that children and elderly ones show up more for their medical appointments than the youths.
+
+Q3: Is there any correlation between gender showing up for appointments?
+
+Answer: The percentages of no show patients based on gender were pretty close. So, we can say that the gender can't be considered as a factor to predict if a patient will show up for their scheduled appointment.
+Consequently, we can not conclude that gender affects showing up for appointments or not.
+
+
+Q3: Can the age be considered as a factor to predict if a patient will show up for their scheduled appointment?
+Yes, the younger the patient is the more likely he/she is going to miss the appointment. Except the group (0-18) 
+since they probably are accompanied by an adult. 
+
+Q4: Does receiving scholarship have a significant impact on showing up for appointments?
+
+Answer: From the analysis and  visualizatin done, it can be concluded that patients without scholarship shows 
+up more for their appointments than those with scholarship.
+Hence, it patient with a scholarship is more likely to not show up for the appointment.
+
+Q5: Does receiving messages have a significant impact on showing up for appointments?
+
+Answer: From the analysis and  visualizatin done, it can be concluded that patients who did not receive messages show up more for their appointments than those who did.
+
+
+
+# Limitations of my Data Analysis and Exploration
+The following are the limitations experienced during the cause of this project:
+1. The dataset covered only one country. 
+It would have been better if we have dataset from more that one country.
+
+2. A more recent data would be much better.
+2016 is about 6 years ago and a lot has changed since then.
+
+3. The dataset covers a short period of only 40 days.
+Longer period could lead to a better results.
+
+
+# References
+1. Stack Overflow
+2. numpy documentation
+3. pandas documentation
+4. seaborn documentation
+5. https://learn.udacity.com/nanodegrees/nd002-alg-t2/parts/cd0000/lessons/ls0526/concepts/f41d3e13-9bbc-45a7-8e7e-14f9e5ba1607
